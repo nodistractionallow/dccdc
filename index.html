@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<body onload="showReferrer()">
+
+<h2 id="referrer"></h2>
+
+<script>
+function showReferrer() {
+  var referrer = document.referrer;
+  document.getElementById("referrer").innerHTML = "You were redirected from: " + referrer;
+}
+</script>
+
+</body>
+</html>
